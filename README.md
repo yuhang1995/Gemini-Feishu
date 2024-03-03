@@ -41,7 +41,7 @@
 
 在`事件与回调`中配置订阅方式，以便将事件发送至开发者服务器；添加请求地址后，就可以`添加事件`, 在事件中我们选择`im.message.receive_v1`添加即可。
 
-> 开发者服务器可等[步骤三](#三创建后端服务)完成后，再来填写
+> 开发者服务器可等[后端服务创建](#三创建后端服务)完成后，再来填写
 
 <img src="https://tg-image.com/file/010c8e9b5153813a1eeb5.jpg" alt="" width="450">
 
@@ -79,7 +79,7 @@
 
 APPID，SECRET 填写在飞书开放平台获取到的APPID，SECRET，BOTNAME 填写你应用的名字。
 
-API_KEY 填写我们在[步骤二](#二申请gemini-api-key)中创建的API key
+API_KEY 填写我们在[申请Gemini API key](#二申请gemini-api-key)中创建的API key
 
 > 配置环境变量可能会失败，可以多 deploy 几次，确保配置成功。
 
